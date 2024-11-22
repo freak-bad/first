@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7bdbd;
+           
+        }
+        .header {
+            background-color: hsl(0, 15%, 13%);
+            color: white;
+            text-align: center;
+            padding: 2px;
+        }
+        .tabs {
+            overflow: hidden;
+            background-color: rgb(40, 128, 139);
+        }
+        .tabs button {
+            background-color: inherit;
+            /* float: left; */
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            color: rgb(248, 240, 240);
+        }
+        
+        .tabs button.active {
+            background-color: hwb(231 5% 6% / 0.925);
+            color: rgb(14, 12, 12);
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            border-top: none;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        img {
+            border-radius: 50%; 
+            width: 150px; 
+            height: 150px;
+        }
+
+        div{
+
+            text-align: center;
+        }
+        .tabs{
+            text-align: center;
+        }
+        body{        
+        background-image: url('https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg'); 
+        background-size: cover; 
+        
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width:100%;
+        }
+        /* Hide all tabcontent by default */
+.tabcontent {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Optional: Style for active tablinks for better visibility */
+.tablinks.active {
+    background-color: #555; /* Darker background for active tab */
+    color: white;
+}
+ 
+
+
+.project {
+            background: #eee;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.project {
+    width: 20%; 
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); 
+    margin: 5px; 
+    text-align: center; 
+}
+.tabs button:hover {
+     background-color: #555; 
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+} 
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Divya Sonla</h1>
+        <p>Welcome to my personal portfolio website!</p>
+    </div>
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+        <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+        <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+        <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        <button class="tablinks" onclick="openTab(event, 'achievement')">Achievement</button>
+
+    </div>
+    <div id="About" class="tabcontent">
+        <h2>ABOUT</h2>
+        <img src="WhatsApp Image 2024-04-30 at 3.50.44 PM.jpeg"width="100" height="100">
+        <p>I am Divya, a 12th pass student currently learning web development at NavGurukul,passionate<br> about building web technologies and learning new skills..</p>
+        <p> I Consider earning additional certifications that can enhance my skills and improve  <br> my employability. Certifications in specific programming languages, tools, or<br> methodologies can be quite beneficial.</p>
+    </div>
+    <div id="Skills" class="tabcontent">
+        <h2>SKILLS</h2>
+        <ul>
+            <li>12th</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>AI Prompt Engineering</li>
+        </ul>
+    </div>
+    <div id="Projects" class="tabcontent">
+        <h2>PROJECTS</h2>
+        <ul>
+           
+
+            <li> - Developed using HTML, CSS, and JavaScript</li>
+        <p>Working on building my first projects, including simple websites and small web applications.</p>
+        <div class="projects-container">
+            <div class="project">
+                <h3><i>Project-1</i></h3>
+             <a href="http://127.0.0.1:5500/firstcode/1/index5.html">
+                <img src="firstcode/1/logo_lite-cbb357.png" alt="Flipkart Project Image" style="width:200px;height:200px;">
+            </a>
+            <p>This project involves enhancing the user interface for Flipkart's mobile site. Improvements were made to make the site more user-friendly and increase the conversion rate.</p>
+    </div> 
+ <div class="projects-container">
+    <div class="project"> 
+        <h3><i>Project-2</i></h3>
+
+      <a href="http://127.0.0.1:5500/portfolio/aliens.html">
+        <img src="Term_Defination_56aa607ad135db4ffa0.webp" alt="portfolio" style="width:150px;height:150px;">
+    </a>
+    <p>AI prompt for use in generate content that showcases your skills, ideas, or projects effectively.</p>
+</ul> 
+    </div>
+    <div id="Education" class="tabcontent">
+        <h2>EDUCATION</h2>
+        <p>Currently enrolled in NavGurukul's intensive coding program, focused on full-stack web development.</p>
+        <div class="education-section">
+            <div class="institution"> <h2><i>DAVMMPS</i></h2></div>
+            <div class="details">
+                <p><strong>Senior Secondary Education:</strong></p>
+                <p><strong>Year of Graduation:</strong> [2023 completed 12th grade]</p>
+                <p><strong>Stream/Major:</strong> [Science]</p>
+            </div>
+        </div>
+        <div class="education-section">
+            <div class="institution"><h2><i>Navgurukul</i> </h2></div>
+            <div class="details">
+                <p><strong>Program:</strong> Software Engineering</p>
+                <p><strong>Year of Enrollment:</strong> [2023]</p>
+                <p><strong>Key Courses:</strong> JavaScript</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h2>CONTACT</h2>
+        <p>Email: <a href="mailto:alex.johnson@example.com">divyasonla23@navgurukul.org</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/divya-sonla-8a4b4b2bb/">divyasonla</a></p>
+            <p>GitHub: <a href="https://github.com/divyasonla">divyasonla</a></p>
+            <p>contact.no :- 2345675670</p>
+    </div>
+    <div id="achievement" class="tabcontent">
+        <h2>ACHIEVEMENT</h2>
+        <li><a href="https://www.coursera.org/account/accomplishments/certificate/6WRXT9V7Q3YX">certificate</a> </li>
+        <li><a href="https://www.coursera.org/account/accomplishments/verify/EGJAS679L6T2">certificate</a></li>
+    </div>
+    <footer>
+        <p>© divyasonla23@navgurukul.org 2024<br>Thankyou for visit</p>
+    </footer>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Initially open the "About" tab
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.tablinks').click();
+
+        });
+
+        
+
+
+    </script>
+</body>
+</html>
+

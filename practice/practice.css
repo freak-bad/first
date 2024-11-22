@@ -1,0 +1,13 @@
+.odd{
+    font-weight: bolder;
+    color: black;
+}
+
+.even{
+    font-weight: bolder;
+    color: blue;
+}
+
+.third-odd{
+    color: green;
+}

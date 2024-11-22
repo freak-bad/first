@@ -1,0 +1,68 @@
+
+ 
+.paw{
+    text-align: center;
+    font-size: 90px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    background-color: wheat;
+    
+}
+
+.background{
+    background-image: "/home/ng/Downloads/paws.jpg";
+}
+
+body{
+    background-image: url(https://freebiehive.com/wp-content/uploads/2023/06/Dog-Paws-PNG.jpg);
+}
+.quote{
+    text-align: center;
+}
+.tyson{
+    text-align: center;
+}
+
+.quote {
+    background-color: aliceblue;
+}
+
+
+.detail1{
+    text-align: center;
+}
+
+.detail2{
+    text-align: center;
+}
+
+.detail3{
+    text-align: center;
+}
+
+
+.bella{
+    text-align: center;
+}
+
+.luna{
+    text-align: center;
+}
+
+section h2{
+    background-color: navajowhite;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+section{
+    margin-top: 200px;
+}
+article{
+    margin: 0%;
+}
+.ter p{
+    text-align: center;
+    color: black;
+}

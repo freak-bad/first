@@ -1,0 +1,46 @@
+/* portfolio.css */
+
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the image container */
+.image-container {
+    width: 100%;
+    height: 100vh; /* Set height to cover the full viewport height */
+    overflow: hidden; /* Hide any overflow from the image */
+}
+
+/* Style for the image */
+.image-container img {
+    width: 100%;
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover; /* Ensure the image covers the entire container without distortion */
+}
+
+
+/* Style for the main container */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for each section box */
+.section-box {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adjust the shadow values as needed */
+}
+
+/* Style for section headings */
+.section-box h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
